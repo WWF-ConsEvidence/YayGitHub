@@ -47,3 +47,14 @@ ggplot(data, aes(x = type.plant, y = height)) +
 
 ```
 
+<br><br>
+
+### Adding new content to my report!
+
+Just came up with this really unique analysis -- finding the mean height of each plant type!
+
+```{r means}
+
+
+
+```
