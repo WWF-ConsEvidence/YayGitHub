@@ -1,0 +1,18 @@
+---
+title: "READ_ME_DATA_MINING"
+author: "Kelly Claborn"
+date: "March 28, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DATA BY REQUEST
+
+Please contact Kelly Claborn (kelly.claborn@wwf.org) for access to all of the data she has mined from her own Twitter and Facebook accounts, that have made these cutting edge analyses a reality.  
+
+Fascinating stuff!
+
+

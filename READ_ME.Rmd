@@ -1,0 +1,17 @@
+---
+title: "READ_ME"
+author: "Kelly Claborn"
+date: "March 28, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome to the YayGitHub repository!
+
+Everything on this particular repository is exlusively for learning purposes.  
+
+Feel free to request access as a collaborator to play around with some of the functionality that GitHub has to offer -- especially when linked with RStudio.
+

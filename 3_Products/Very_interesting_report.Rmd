@@ -1,0 +1,49 @@
+---
+title: "My Report"
+author: "Kelly Claborn"
+date: "March 28, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+setwd('..')
+
+source('2_Analysis/Really_awesome_analyses.R')
+
+```
+
+
+### Why my report is so awesome
+
+1. All of my super cutting edge analyses
+2. I only have to run this single code, and the rest is sourced from my wonderfully organized repo
+3. Completely reproducible
+
+<br><br>
+
+See my cool data? I've printed it below:
+  
+```{r read.data}
+
+print(unique(data$type.plant))
+
+```
+
+<br><br>
+  
+### Continue reading, to learn more about my very interesting analyses
+  
+
+I have made a plot to show you my cool results! Check it out!
+
+
+```{r plot, echo=FALSE}
+
+ggplot(data, aes(x = type.plant, y = height)) +
+  geom_bar(stat = "identity",
+           fill = "dark green")
+
+```
+
